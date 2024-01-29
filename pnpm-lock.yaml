@@ -20,6 +20,9 @@ importers:
       graphql-tag:
         specifier: ^2.12.6
         version: 2.12.6(graphql@16.8.1)
+      ramda:
+        specifier: ^0.29.1
+        version: 0.29.1
       react:
         specifier: ^18.0.0
         version: 18.2.0
@@ -54,6 +57,9 @@ importers:
       graphql-tag:
         specifier: ^2.12.6
         version: 2.12.6(graphql@16.8.1)
+      ramda:
+        specifier: ^0.29.1
+        version: 0.29.1
       react:
         specifier: ^18.0.0
         version: 18.2.0
@@ -16902,6 +16908,10 @@ packages:
     dependencies:
       performance-now: 2.1.0
 
+  /ramda@0.29.1:
+    resolution: {integrity: sha512-OfxIeWzd4xdUNxlWhgFazxsA/nl3mS4/jGZI5n00uWOoSSFRhC1b6gl6xvmzUamgmqELraWp0J/qqVlXYPDPyA==}
+    dev: false
+
   /randombytes@2.1.0:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
     dependencies:
@@ -19607,6 +19617,7 @@ packages:
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
       graphql: 16.8.1
       graphql-tag: 2.12.6(graphql@16.8.1)
+      ramda: 0.29.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       vitest: 1.2.1(@types/node@18.19.10)(jsdom@23.2.0)
